@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav mr-auto mt--3">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tests</a>
+                        <a class="nav-link" href="#testslist">Tests</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">How It Works</a>
@@ -51,7 +51,7 @@
                         <h2>Take the next IELTS essay with confidence.</h2>
                         <p>Learn how to read, listen, speak and write english the proper way. Write an essay, get scored and corrected by experts online!</p>
                         <div>
-                            <a class="btn btn-info btn-taketest" href="">Take free Test</a>
+                            <a class="btn btn-info btn-taketest" href="#testslist">Take free Test</a>
                             <a class="btn btn-info btn-watch" href=""><img src="images/play.svg" class="img-fluid" alt="play button"> Watch Video</a>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                     </div>
                 </div>
             </div>
-            <div class="testdiv-wrapper">
+            <div class="testdiv-wrapper"  id="testslist">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-8 col-md-12">
@@ -135,5 +135,19 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(".nav-link").on('click', function(event) {
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+                   
+                window.location.hash = hash;
+            });
+        });
+    </script>
 </body>
 </html>
