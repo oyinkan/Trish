@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px) {
+	.testdiv-wrapper img {
+		position: static;
+	}
+	.takeielts-div h2 {
+		font-size: 40px;
+	}
+	.navbar-brand,
+	.navbar a,
+	.consider-wrapper h6,
+	.consider-wrapper p {
+		font-size: 14px;
+	}
+	.takeielts-div p {
+		font-size: 20px;
+	}
+	.btn.btn-info.btn-watch,
+	.btn.btn-info.btn-taketest {
+		font-size: 23px;
+	}
+	.consider-wrapper h4 {
+    	font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 770px) and (max-width: 1000px) {
+	.testdiv-wrapper img {
+		position: static;
+		margin-top: 20px;
+	}
+	.takeielts-div h2 {
+		font-size: 45px;
+	}
+	.navbar-brand,
+	.navbar a,
+	.consider-wrapper h6,
+	.consider-wrapper p {
+		font-size: 16px;
+	}
+	.takeielts-div p {
+		font-size: 22px;
+	}
+	.btn.btn-info.btn-watch,
+	.btn.btn-info.btn-taketest {
+		font-size: 26px;
+	}
+	.consider-wrapper h4 {
+    	font-size: 35px;
+	}
+}

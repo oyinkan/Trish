@@ -1,0 +1,175 @@
+:root {
+  --white: white;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+nav {
+    box-shadow: 0 4px 16px 0 rgba(57, 54, 73, 0.13);
+    background-color: var(--white);
+}
+nav .container-fluid {
+	width: 96%;
+}
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: -0.48px;
+    color: #8ed5ff;
+}
+
+.navbar-brand span {
+    color: #579fca;
+}
+.navbar a {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.49px;
+    text-align: right;
+    color: #393649;
+    text-transform: uppercase;
+}
+.navbar .nav-link:hover {    
+  font-weight: bold;
+}
+.mt--3 {
+	margin-top: -3px;
+}
+.register {
+	margin-top: 11px;
+    margin-right: 10px;
+}
+.fa.fa-bars {
+	color: #393649;
+}
+.btn.btn-info.btn-marker {
+    background: transparent;
+	border-radius: 4px;
+	border: 2px solid #2c0fef;
+	text-align: center;
+	color: #2c0fef;
+	padding: 10px 30px;
+	padding-bottom: 12px;
+}
+.btn.btn-info.btn-marker:hover {
+	background: #2c0fef;
+	color: var(--white);
+}
+a:hover {
+	text-decoration: none;
+}
+/* test session */
+#takeielts {
+	background: url(./../images/takeielts.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: var(--white);
+}
+.takeielts-grid {
+	width: 84%;
+	/*width: 1140px;*/
+	margin: auto;
+}
+.takeielts-div {
+	padding-top: 150px;
+	padding-bottom: 120px;
+}
+.takeielts-div h2 {
+  text-shadow: 0 1px 37px #393649;
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.takeielts-div p {
+	width: 76.4%;
+	margin: auto;
+    font-size: 30px;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.takeielts-div div {
+	margin-bottom: 100px;
+}
+.btn.btn-info.btn-taketest {
+    border-radius: 8px;
+    background-color: #2c0fef;
+    border-color: #2c0fef;
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    margin-right: 15px;
+}
+.btn.btn-info.btn-taketest:hover {
+	background: transparent;
+	border-color: var(--white);
+}
+.btn.btn-info.btn-watch {
+    font-size: 28px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+}
+.consider-wrapper {
+	padding: 60px 0 40px 0;
+}
+.consider-wrapper h4 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #5f5a76;
+  margin-bottom: 70px;
+}
+.consider-wrapper h6,
+.consider-wrapper p {
+  font-size: 20px;
+  color: #393649;
+}
+.consider-wrapper h6 {
+	font-weight: 500;
+	margin-top: 20px;
+}
+.consider-wrapper p {
+  width: 90%;
+  margin: auto;
+}
+.test-div {
+    border-radius: 12px;
+    box-shadow: 0 6px 30px 0 rgba(141, 136, 165, 0.15);
+    background-color: var(--white);
+    padding: 30px;
+}
+.consider-wrapper h5 {
+    font-size: 25px;
+    font-weight: 500;
+	letter-spacing: -0.6px;
+    color: #393649;
+}
+.consider-wrapper .container-fluid {
+	width: 97%;
+}
+.testdiv-wrapper {
+	margin-top: 80px;
+}
+.test-div {
+	margin-top: 20px;
+}
+.test-div p {
+	width: auto;
+}
+.test-div a {
+  font-size: 23px;
+  margin-top: 20px;
+}
+.mt-70 {
+	margin-top: 70px;
+}
+.testdiv-wrapper img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
