@@ -1,5 +1,5 @@
 :root {
-  --white: white;
+    --white: white;
 }
 body {
 	font-family: 'Roboto', sans-serif;
@@ -32,67 +32,68 @@ nav .container-fluid {
     text-transform: uppercase;
 }
 .navbar .nav-link:hover {    
-  font-weight: bold;
+    font-weight: bold;
 }
 .mt--3 {
-	margin-top: -3px;
+    margin-top: -3px;
 }
 .register {
-	margin-top: 11px;
+	  margin-top: 11px;
     margin-right: 10px;
 }
 .fa.fa-bars {
-	color: #393649;
+	 color: #393649;
 }
 .btn.btn-info.btn-marker {
     background: transparent;
-	border-radius: 4px;
-	border: 2px solid #2c0fef;
-	text-align: center;
-	color: #2c0fef;
-	padding: 10px 30px;
-	padding-bottom: 12px;
+	  border-radius: 4px;
+	  border: 2px solid #2c0fef;
+	  text-align: center;
+	  color: #2c0fef;
+	  padding: 10px 30px;
+	  padding-bottom: 12px;
+    text-transform: uppercase;
 }
 .btn.btn-info.btn-marker:hover {
-	background: #2c0fef;
-	color: var(--white);
+	  background: #2c0fef;
+	  color: var(--white);
 }
 a:hover {
-	text-decoration: none;
+	  text-decoration: none;
 }
 /* test session */
 #takeielts {
-	background: url(./../images/takeielts.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	text-align: center;
-	color: var(--white);
+	  background: url(./../images/takeielts.png);
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  text-align: center;
+	  color: var(--white);
 }
 .takeielts-grid {
-	width: 84%;
-	/*width: 1140px;*/
-	margin: auto;
+	  width: 84%;
+	  /*width: 1140px;*/
+	  margin: auto;
 }
 .takeielts-div {
-	padding-top: 150px;
-	padding-bottom: 120px;
+  	padding-top: 150px;
+  	padding-bottom: 120px;
 }
 .takeielts-div h2 {
-  text-shadow: 0 1px 37px #393649;
-  font-size: 50px;
-  font-weight: 500;
-  text-transform: uppercase;
+    text-shadow: 0 1px 37px #393649;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 .takeielts-div p {
-	width: 76.4%;
-	margin: auto;
+  	width: 76.4%;
+  	margin: auto;
     font-size: 30px;
     line-height: normal;
     margin-top: 20px;
     margin-bottom: 30px;
 }
 .takeielts-div div {
-	margin-bottom: 100px;
+	  margin-bottom: 100px;
 }
 .btn.btn-info.btn-taketest {
     border-radius: 8px;
@@ -105,8 +106,8 @@ a:hover {
     margin-right: 15px;
 }
 .btn.btn-info.btn-taketest:hover {
-	background: transparent;
-	border-color: var(--white);
+  	background: transparent;
+  	border-color: var(--white);
 }
 .btn.btn-info.btn-watch {
     font-size: 28px;
@@ -116,26 +117,30 @@ a:hover {
     text-transform: uppercase;
 }
 .consider-wrapper {
-	padding: 60px 0 40px 0;
+	  padding: 60px 0 40px 0;
+}
+.consider-wrapper h4,
+#howitworks h4,
+#testimonial-wrapper h4 {
+    font-size: 40px;
 }
 .consider-wrapper h4 {
-  font-size: 40px;
-  font-weight: bold;
-  color: #5f5a76;
-  margin-bottom: 70px;
+    font-weight: bold;
+    color: #5f5a76;
+    margin-bottom: 70px;
 }
 .consider-wrapper h6,
 .consider-wrapper p {
-  font-size: 20px;
-  color: #393649;
+    font-size: 20px;
+    color: #393649;
 }
 .consider-wrapper h6 {
-	font-weight: 500;
-	margin-top: 20px;
+  	font-weight: 500;
+  	margin-top: 20px;
 }
 .consider-wrapper p {
-  width: 90%;
-  margin: auto;
+    width: 90%;
+    margin: auto;
 }
 .test-div {
     border-radius: 12px;
@@ -146,30 +151,167 @@ a:hover {
 .consider-wrapper h5 {
     font-size: 25px;
     font-weight: 500;
-	letter-spacing: -0.6px;
+	  letter-spacing: -0.6px;
     color: #393649;
 }
 .consider-wrapper .container-fluid {
-	width: 97%;
+	  width: 97%;
 }
 .testdiv-wrapper {
-	margin-top: 80px;
+	  margin-top: 80px;
 }
 .test-div {
-	margin-top: 20px;
+	  margin-top: 20px;
 }
 .test-div p {
-	width: auto;
+	  width: auto;
 }
 .test-div a {
-  font-size: 23px;
-  margin-top: 20px;
+    font-size: 23px;
+    margin-top: 20px;
 }
 .mt-70 {
-	margin-top: 70px;
+	  margin-top: 70px;
 }
 .testdiv-wrapper img {
-	position: absolute;
-	bottom: 0;
-	right: 0;
+  	position: absolute;
+  	bottom: 0;
+  	right: 0;
+}
+
+/* how it works */
+#howitworks {
+    color: #393649;
+}
+.howitworks-wrapper {
+    background: url(./../images/howitworks.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+}
+.how-it-works {
+  margin-bottom: 60px;
+}
+#howitworks h4,
+.marking-wrapper p,
+#testimonial-wrapper h4 {
+    font-weight: 500;
+}
+#howitworks h5 {
+    font-size: 28px;
+    line-height: 1;
+    width: 65%;
+    margin: auto;
+}
+.freetest img {
+    height: 150px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+#howitworks img.arrow {
+    height: auto;
+    margin-top: 85px;
+}
+#howitworks p {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+#howitworks hr.divider {
+    width: 75%;
+    border: 1px solid #393649;
+    margin-bottom: 60px;
+}
+#howitworks h6,
+.marking-wrapper p {
+    font-size: 20px;
+    line-height: 2;
+}
+.howitworks-steps {
+    text-align: left;
+    margin-bottom: 40px;
+}
+.howitworks-steps hr {
+    width: 10%;
+    border: solid 2px #579fca;
+    float: left;
+    margin-top: -5px;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+
+/* marking section */
+.marking-wrapper {
+  margin-top: 80px;
+  color: #393649;
+}
+.marking-div {
+  background: url(./../images/scripts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+.marking-wrapper h2 {
+    width: 85%;
+    font-size: 55px;
+    font-weight: normal;  
+    margin-top: 70px;  
+}
+.btn.btn-info.btn-marker.getstarted {
+    font-size: 23px;
+    padding-top: 12px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+/* testimonials */
+#testimonial-wrapper {
+    padding-top: 80px;
+    color: #393649;
+}
+#testimnial-wrapper h5 {
+    font-size: 26px;
+    font-weight: 500;
+}
+.testimonial-div {
+  padding: 90px 80px;
+  border-radius: 4px;
+  box-shadow: 0 6px 23px 0 rgba(215, 218, 218, 0.5);
+  background-color: var(--white);
+  margin-top: 40px;
+}
+.testimonial {
+    position: absolute;
+    left: -40px;
+    top: -55px;
+}
+.testimonial-div .row {
+  margin-bottom: 120px;
+}
+.testimonial-text {
+    margin-left: -35px;
+    margin-top: -25px;
+}
+.testimonial-div h6 {
+    width: 90%;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.testimonial-div p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+.testimonial-div .location {
+    font-size: 20px;
+    color: #4285f4;
+    margin-top: -20px;
+}
+.mt--50 {
+  margin-top: -50px;
 }

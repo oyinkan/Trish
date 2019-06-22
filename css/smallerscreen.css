@@ -8,18 +8,26 @@
 	.navbar-brand,
 	.navbar a,
 	.consider-wrapper h6,
-	.consider-wrapper p {
+	.consider-wrapper p,
+	.testimonial-div p.location {
 		font-size: 14px;
 	}
-	.takeielts-div p {
+	.takeielts-div p,
+	.testimonial-div p {
 		font-size: 20px;
 	}
 	.btn.btn-info.btn-watch,
 	.btn.btn-info.btn-taketest {
 		font-size: 23px;
 	}
-	.consider-wrapper h4 {
+	.consider-wrapper h4,
+	#howitworks h4, 
+	.marking-wrapper p, 
+	#testimonial-wrapper h4 {
     	font-size: 30px;
+	}
+	.testimonial-text {
+	    margin-top: 10px;
 	}
 }
 
@@ -35,7 +43,7 @@
 	.navbar a,
 	.consider-wrapper h6,
 	.consider-wrapper p {
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.takeielts-div p {
 		font-size: 22px;
@@ -44,7 +52,28 @@
 	.btn.btn-info.btn-taketest {
 		font-size: 26px;
 	}
-	.consider-wrapper h4 {
+	.consider-wrapper h4,
+	#howitworks h4, 
+	.marking-wrapper p, 
+	#testimonial-wrapper h4 {
     	font-size: 35px;
+	}
+	.testimonial-text {
+    	margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.testimonial-div h6 {
+	    font-size: 25px;
+	}
+	.btn.btn-info.btn-marker.getstarted {
+		font-size: 14px;
+	}
+	.marking-wrapper h2 {
+		font-size: 40px;
+	}
+	#howitworks h6, .marking-wrapper p {
+		font-size: 14px;
 	}
 }
